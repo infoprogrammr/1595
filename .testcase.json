@@ -1,1 +1,1 @@
-[{"input":"1 2","output":"3","error":"wrong answer","priority":1,"name":"fir"}]
+[{"input":"2 ","output":"2","error":"wrong answer","priority":1,"name":"fir"},{"input":"5 2","output":"Infinity","error":"wrong answer","priority":2,"name":"Sub task 2"},{"input":"6 3","output":"Infinity","error":"wrong answer","priority":1,"name":"Sub task 3"}]
