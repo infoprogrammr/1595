@@ -1,0 +1,1 @@
+{"mainfile":"Challenge.cpp","compilemenucommand":"g++ Challenge.cpp && ./a.out","runmenucommand":"g++ Challenge.cpp && ./a.out","testmenucommand":"> .testcaseop && :> .testcaseop2 && sh ./testcpp.sh > ./.testcaseop","showterminal":true,"showQuestionInPopup":true}
