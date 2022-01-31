@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 a=$(pwd)
-command='java Challenge'
+command='python3 Challenge.py'
 myVar=`echo $a | sed 's/ *$//g'`
 cd /home/theia 
 echo "Executing the test.."
 
-javac $a/Challenge.java
+
 :> $myVar/.testcaseop2 &&  java -classpath './json-simple-1.1.1.jar:./' Test  $myVar "$command"> $myVar/.testcaseop2
 
 if grep -q 'error: ' $myVar/.testcaseop2; then
